@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang=""en>
+
+<head>
+
+<title>TAHA AŞŞA BASCAN EMİ</title>
+
+  <style>
+      .header 
+      {
+        text-align: center;
+        background: rgba(0, 255, 234, 0.637);
+
+
+
+      }
+      .container 
+      {
+            text-align: center;
+            font-size: 50px;
+      }
+
+
+  </style>
+</head>
+<meta charset="utf-8">
+<body>
+  <button id="button">Basınca Yazıcak</button>
+  <input Yaz = "text"> Yazı Yazılacak alan</input>
+
+
+  <div id="kutu"></div>
+
+
+
+<script>
+  document.getElementById("kutu").innerHTML="butona tıklarsan yazar";
+function BASCAN(){
+  document.getElementById("kutu").innerHTML="Buraya yazdırıcak";
+}
+var buttonaYaz=document.getElementById("button");
+buttonaYaz.onclick=BASCAN;
+
+
+
+</script>
+
+
+</body>
+
+</html>
