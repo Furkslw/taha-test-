@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tas Kagıt Makas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Başlık -->
+    <header>
+      <h1>Tas Kagıt Makas</h1>
+    </header>
+    <!-- Skor etiketi adı altında Skor boardu ve kullanıcı isimlerini oluştur. -->
+    <div class="skor">
+      <div id="kullanıcı-etiket" class="badge">Kullanıcı</div>
+      <div id="pc-etiket" class="badge">Pc</div>
+      <span id="kullanıcı-skor">0</span>:<span id="pc-skor">0</span>
+    </div>
+    <!-- Verilen sonucun yazıldığı yer -->
+    <div class="sonuc">
+      <p>Oynayven Galiii!!!</p>
+    </div>
+    <!-- Seçimler Classı adı altında taş,kağıt ve makası dahil ediyoruz    -->
+    <!-- İkonları İnternet üzerinden url ile çekersek indirmeye gerek kalmaz.. -->
+    <div class="secimler">
+      <div class="secim" id="t">
+        <img
+          src="https://img.icons8.com/color/96/000000/hand-rock.png"
+          alt="Tas"
+        />
+      </div>
+      <div class="secim" id="k">
+        <img
+          src="https://img.icons8.com/color/96/000000/hand.png"
+          alt="Kagit"
+        />
+      </div>
+      <div class="secim" id="m">
+        <img
+          src="https://img.icons8.com/color/96/000000/hand-scissors--v1.png"
+          alt="Makas"
+        />
+      </div>
+    </div>
+    <!-- İkonların altında gözükecek mesaj.  -->
+    <p id="action-message">Hamleni Yap</p>
+    <script src="script.js"></script>
+  </body>
+</html>
